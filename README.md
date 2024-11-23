@@ -98,5 +98,6 @@ cargo generate --git https://github.com/rustwasm/wasm-pack-template
 wasm-pack build
 
 npm init wasm-app www
+NODE_OPTIONS=--openssl-legacy-provider 
 
 ```
