@@ -100,4 +100,10 @@ wasm-pack build
 npm init wasm-app www
 NODE_OPTIONS=--openssl-legacy-provider 
 
+wasm-pack login
+wasm-pack build
+wasm-pack publish
+
+
+
 ```
